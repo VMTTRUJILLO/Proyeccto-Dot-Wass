@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.logoheader{
+    height: 5dvi;
+    margin-left: 4dvi;
+    margin-top: 2dvi;
+}
+
+.menu{
+    display: inline-flex;
+    margin-top: 2.5dvi;
+    margin-left: 19dvi;
+    gap: 10vh;
+    list-style: none;
+   
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-size: 1,2rem;
+    
+}
+
+.submenu{
+    list-style: none;
+}
+
+.socialmediaf{
+    margin-top: 2.5dvi;
+    height: 2dvi;
+    margin-right: 2dvi;
+}
+
+.socialmediaig{
+    margin-top: 2.5dvi;
+    height: 2dvi;
+    margin-right: 4dvi;
+}
+
+main{
+    margin-top: 8dvi;
+    
+}
+
+
+.maintittle{
+    color: rgb(3, 7, 119);
+    font-size: 1.5dvi;
+    font-family: "montserrat", sans-serif;
+    margin-left: 4dvi;
+}
+
+.conectando{
+    color: rgb(10, 10, 10);
+    font-size: 3dvi;
+    font-family: "montserrat", sans-serif;
+    font-weight: 650;
+    margin-top: 0.2dvi;
+    margin-left: 4.1dvi;
+}
+
+
+.empresas{
+    color: rgb(3, 4, 94);
+    font-size: 7.5dvi;
+    font-family: "poppins", sans-serif;
+    margin-left: 4.3dvi;
+    margin-top: -3.5dvi;
+    font-weight: 800;
+}
+
+.parrafo-main-1{
+    font-family: "montserrat", sans-serif;
+    color: black;
+    font-size: 1.5dvi;
+    font-weight: 650;
+    margin-left: 4.3dvi;
+}
+
+.span-parrafo-main-1{
+    color: rgb(3, 7, 119);
+}
+
+.contact-button{
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, rgb(1, 186, 221), rgb(3, 4, 94));
+    display: flex;
+    margin-left: 4.3dvi;
+    margin-top: 2dvi;
+    font-family: "poppins", sans-serif;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+.main-part-1{
+    margin-top: 3dvi;
+    background: radial-gradient(circle at bottom right, rgb(145, 224, 239), white 40%);
+    height: 80vh;
+    padding: 50px,50px;
+}
+
+.main-part-2{
+    background: linear-gradient(to bottom right, rgb(20, 25, 28), rgb(84, 84, 86) 80%);
+    display: -ms-flexbox;
+    height: 45dvi;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.laptop{
+    height: 50dvi;
+    width: 60dvi;
+    margin-top: -7dvi;
+}
+
+.titulo-tu-socio-digital{
+    margin-top: -31dvi;
+    margin-left: 58dvi;
+}
+
+.primary-tittle-2main{
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 4dvi;
+    font-weight: 600;
+}
+
+.span-primary-tittle-2main{
+    color: rgb(144, 223, 238);
+}
+
+.second-tittle-2main{
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 2.5dvi;
+    font-weight: 580;
+    margin-left: 0.5dvi;
+    margin-top: -0.15dvi;
+}
+
+.parrafo-tu-socio-digital{
+    text-align: justify;
+    margin-top: 1.60dvi;
+    
+}
+
+.parrafo-2main-1{
+    margin-top: 0.10dvi;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5dvi;
+    font-weight: 490;
+    word-spacing: 1.5dvi;
+}
+
+.parrafo-2main-2{
+    margin-top: 1.2dvi;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5dvi;
+    font-weight: 490;
+    word-spacing: 1.5dvi;
+}
+
+.parrafo-2main-3{
+    margin-top: 1.2dvi;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5dvi;
+    font-weight: 490;
+    word-spacing: 2.1dvi;
+}
+
+.parrafo-2main-4{
+    margin-top: 1.2dvi;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5dvi;
+    font-weight: 490;
+    word-spacing: 1.5dvi;
+    margin-left: 13.7dvi;
+}
+
+.finish-main-part-2{
+    background: linear-gradient(180deg, rgb(144, 223, 238), white 7%);
+    height: 300dvi;
+}
+
+.main-part-3{
+    height: 300dvi;
+}
+
+.entorno-digital{
+    text-align: center;
+    margin-top: -289dvi;
+    font-family: "montserrat", sans-serif;
+}
+
+.negocio-3main{
+    font-size: 3dvi;
+}
+
+.entorno-3main{
+    font-size: 6dvi;
+    color:  rgb(3, 4, 94);
+}
+
+.sitios-web{
+    margin-top: 9dvi;
+    font-family: "montserrat", sans-serif;   
+}
+
+.tittle-sitiosweb{
+    font-size: 5.5dvi;
+    font-weight: 700;
+    color: rgb(89, 89, 89);
+    letter-spacing: 0.3dvi;
+    margin-left: 11dvi;
+}
+
+.landing-page{
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "montserrat", sans-serif;
+}
+
+.image-landingpage{
+    height: 40dvi;
+    width: 40dvi;
+    margin-left: 5.5dvi;
+    margin-top: 2.5dvi;
+}
+
+.span-landingpage{
+    color:  rgb(3, 4, 94);
+    margin-left: 11dvi;
+    font-size: 5dvi;
+    font-weight: 700;
+}
+
+.tittle-landingpage{
+    font-size: 5dvi;
+}
+
+
+
+
+
+
