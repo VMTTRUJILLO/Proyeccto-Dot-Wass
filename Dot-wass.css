@@ -73,6 +73,12 @@ main{
     margin-left: 4.1dvi;
 }
 
+.lineas{
+    width: 20dvi;
+    height: 1.5dvi;
+   
+}
+
 
 .empresas{
     color: rgb(3, 4, 94);
@@ -96,7 +102,8 @@ main{
 }
 
 .contact-button{
-    align-items: center;
+    width: 200px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     font-size: 2rem;
@@ -109,6 +116,8 @@ main{
     font-family: "poppins", sans-serif;
     justify-content: center;
     font-weight: 600;
+    font-size: 1.7dvi;
+    align-items: center;
 }
 
 
@@ -207,7 +216,7 @@ main{
 }
 
 .main-part-3{
-    height: 300dvi;
+    height: 400dvi;
 }
 
 .entorno-digital{
@@ -252,17 +261,129 @@ main{
 }
 
 .span-landingpage{
-    color:  rgb(3, 4, 94);
-    margin-left: 11dvi;
     font-size: 5dvi;
     font-weight: 700;
+    color: black;
 }
 
-.tittle-landingpage{
+.title-landingpage{
     font-size: 5dvi;
+    font-size: 5dvi;
+    font-weight: 700;
+    margin-left: 8dvi;
+    margin-top: 4dvi;
+    color:  rgb(3, 4, 94);
+}
+
+.parrafo-landingpage{
+    margin-left: 53dvi;
+    font-family: "montserrat", sans-serif;
+    margin-top: -30dvi;
+    letter-spacing: 0.05dvi;
+    font-size: 1.6dvi;
+    line-height: 2.2dvi;
+    text-align: justify;
+}
+
+.vermas-button{
+    width: 480px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, rgb(1, 186, 221), rgb(3, 4, 94));
+    display: flex;
+    margin-left: 0.07dvi;
+    margin-top: 2dvi;
+    font-family: "poppins", sans-serif;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.pagina-web{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    font-family: "montserrat", sans-serif;
+    margin-top: 15dvi;
+}
+
+.image-paginaweb{
+    height: 40dvi;
+    width: 40dvi;
+    margin-left: 5.5dvi;
+    margin-top: 2.5dvi;
+}
+
+.title-paginaweb{
+    font-size: 5dvi;
+    font-size: 5dvi;
+    font-weight: 700;
+    margin-left: 8dvi;
+    margin-top: 4dvi;
+    color: black
+}
+
+.span-paginaweb{
+    font-size: 5dvi;
+    font-weight: 700;
+    color:  rgb(3, 4, 94);
+}
+
+.parrafo-paginaweb{
+    margin-right: 30dvi;
+    margin-left: 6dvi;
+    font-family: "montserrat", sans-serif;
+    margin-top: -30dvi;
+    letter-spacing: 0.02dvi;
+    font-size: 1.6dvi;
+    line-height: 2.8dvi;
+    text-align: justify;
+}
+
+.E-commerce{
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "montserrat", sans-serif;
+    margin-top: 15dvi;
+}
+
+.image-E-commerce{
+    height: 40dvi;
+    width: 40dvi;
+    margin-left: 5.5dvi;
+    margin-top: 2.5dvi;
 }
 
 
+.span-E-commerce{
+    font-size: 5dvi;
+    font-weight: 700;
+    color: black;
+}
+
+.title-E-commerce{
+    font-size: 5dvi;
+    font-size: 5dvi;
+    font-weight: 700;
+    margin-left: 8dvi;
+    margin-top: 4dvi;
+    color:  rgb(3, 4, 94);
+}
+
+.parrafo-E-commerce{
+    margin-left: 53dvi;
+    font-family: "montserrat", sans-serif;
+    margin-top: -30dvi;
+    letter-spacing: 0.05dvi;
+    font-size: 1.6dvi;
+    line-height: 2.2dvi;
+    text-align: justify;
+}
+
+.necesitas-productos{
+    color:  rgb(3, 4, 94);
+}
 
 
 
